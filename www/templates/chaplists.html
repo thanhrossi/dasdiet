@@ -1,0 +1,13 @@
+<ion-view view-title="ChapLists">
+    <ion-nav-buttons side="right" ng-show="false">
+        <a class="button button-icon button-clear ion-home" nav-clear menu-close href="#/app/about">
+        </a>
+    </ion-nav-buttons>
+    <ion-content class="has-header padding">
+        <ion-list>
+            <ion-item ng-repeat="chap in chapLists" href="#/app/chuong{{chap.id}}">
+                {{chap.title}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
