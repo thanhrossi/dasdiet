@@ -19,3 +19,9 @@ img {
 	margin: 20px auto;
 	display: block;
 }
+i {
+	font-style: italic;
+}
+ul.das-list li{
+	margin: 10px 0;
+}
