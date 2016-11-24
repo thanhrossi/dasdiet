@@ -117,7 +117,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/chuong10',
       views: {
         'menuContent': {
-          templateUrl: 'templates/chaps/chuong10.html'
+          templateUrl: 'templates/chaps/chuong11.html'
         }
       }
     })

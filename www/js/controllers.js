@@ -54,8 +54,8 @@ angular.module('starter.controllers', [])
     { title: '8- Hướng dẫn sử dụng đậu phụ và các chế phẩm của đậu nành trong quá trình DAS', id: 8},
     { title: '9- Các loại đuờng ăn kiêng', id: 9},
     { title: '10- Giới thiệu về DAS Diet', id: 10},
-    { title: 'Phần I: Lịch sử phát triển của chế độ ăn ít chất tinh bột, đƣờng ( Low Carb )', id: 11},
-    { title: 'Phần II: Sự phát triển của chế độ dinh dƣỡng Low Carb ở Việt Nam', id: 12},
+    { title: 'Phần I: Lịch sử phát triển của chế độ ăn ít chất tinh bột, đường ( Low Carb )', id: 11},
+    { title: 'Phần II: Sự phát triển của chế độ dinh dưỡng Low Carb ở Việt Nam', id: 12},
     { title: 'Phần III: Giới thiệu về Atkins’ Diet và DAS Diet', id: 13},
   ];
 
