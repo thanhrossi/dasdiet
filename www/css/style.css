@@ -41,6 +41,6 @@ ul.das-list li{
 .fwb {
 	font-weight: bold;
 }
-ion-item.item.item-complex:nth-last-child(-n+3) {
+.chap-listing ion-item.item.item-complex:nth-last-child(-n+3) {
     padding-left: 20px;
 }
