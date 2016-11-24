@@ -25,3 +25,19 @@ i {
 ul.das-list li{
 	margin: 10px 0;
 }
+.ita {
+	font-style: italic;
+	text-decoration: underline;
+}
+.bolta {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.boline {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.fwb {
+	font-weight: bold;
+}
