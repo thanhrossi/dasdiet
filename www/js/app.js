@@ -155,8 +155,89 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+  .state('app.elists', {
+    url: '/elists',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/elists.html',
+        controller: 'eListsCtrl'
+      }
+    }
+  })
 
-
+    // config chap
+  .state('app.echuong1', {
+      url: '/echuong1',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong1.html'
+        }
+      }
+    })
+  .state('app.echuong2', {
+      url: '/echuong2',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong2.html'
+        }
+      }
+    })
+  .state('app.echuong3', {
+      url: '/echuong3',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong3.html'
+        }
+      }
+    })
+    .state('app.echuong4', {
+      url: '/echuong4',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong4.html'
+        }
+      }
+    })
+      .state('app.echuong5', {
+      url: '/echuong5',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong5.html'
+        }
+      }
+    })
+  .state('app.echuong6', {
+      url: '/echuong6',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong6.html'
+        }
+      }
+    })
+  .state('app.echuong7', {
+      url: '/echuong7',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong7.html'
+        }
+      }
+    })
+    .state('app.echuong8', {
+      url: '/echuong8',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong8.html'
+        }
+      }
+    })
+      .state('app.echuong9', {
+      url: '/echuong9',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chaps/echuong9.html'
+        }
+      }
+    })
   .state('app.single', {
     url: '/playlists/:playlistId',
     views: {

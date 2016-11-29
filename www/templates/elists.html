@@ -1,0 +1,13 @@
+<ion-view view-title="eDAS Lists">
+    <ion-nav-buttons side="right" ng-show="false">
+        <a class="button button-icon button-clear ion-home" nav-clear menu-close href="#/app/about">
+        </a>
+    </ion-nav-buttons>
+    <ion-content class="has-header padding">
+        <ion-list class="">
+            <ion-item ng-repeat="echap in eLists" href="#/app/echuong{{echap.id}}">
+                {{echap.title}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

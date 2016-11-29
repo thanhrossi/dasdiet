@@ -59,5 +59,19 @@ angular.module('starter.controllers', [])
     { title: 'Phần III: Giới thiệu về Atkins’ Diet và DAS Diet', id: 13},
   ];
 
-
 })
+.controller('eListsCtrl', function($scope) {
+  $scope.eLists = [
+    { title: 'I. Lời nói đầu', id: 1},
+    { title: 'II. Qui tắc Đèn Giao Thông', id: 2},
+    { title: 'III. Bắt đầu chế độ eDAS 2', id: 3},
+    { title: 'IV. Vấn đề dính Carb', id: 4},
+    { title: 'V. Vấn đề hoa quả và một số loại hạt, sữa', id: 5},
+    { title: 'VI. Thay đổi linh hoạt nguyên tắc “Xoay vòng Carb”', id: 6},
+    { title: 'VII. Nguyên lí khoa học của eDAS', id: 7},
+    { title: 'VIII. Chế độ eDAS 2 dành cho những ai ?', id: 8},
+    { title: 'Phụ lục: Huớng dẫn sử dụng rượu bia khi DAS ( The DAS guide to alcoholic beverages )', id: 9},
+
+  ];
+})
+
