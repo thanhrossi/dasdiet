@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.gtnguyenbinh698035" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>giai thoai Nguyen Binh</name>
+<widget id="com.ionicframework.dasdiet1" version="0.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>DAS diet</name>
   <description>&#xD;
-        Giai thoai Nguyen Binh project.&#xD;
+        DAS diet.&#xD;
     </description>
   <author email="thanhrossi.tt@gmail.com" href="http://fb.me/thanhrossi">&#xD;
       TT studio Team&#xD;
@@ -17,7 +17,7 @@
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
   <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+    <param name="ios-package" onload="true" value="CDVStatusBar"/>
   </feature>
   <platform name="android">
     <icon src="resources\android\icon\drawable-ldpi-icon.png" density="ldpi"/>
@@ -40,4 +40,5 @@
     <splash src="resources\android\splash\drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
   <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
+  <engine name="android" spec="~6.1.0"/>
 </widget>
